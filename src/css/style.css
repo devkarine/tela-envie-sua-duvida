@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+body {
+  background: url(../img/bg-repeat.jpg);
+  background-size: contain;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  max-width: 80rem;
+  width: 100%;
+}
+
+main .information {
+  color: white;
+  width: 60rem;
+}
+
+main .information h1 {
+  padding-bottom: 1.1rem;
+  font-weight: 900;
+  font-size: clamp(2rem, 3vw, 4rem);
+}
+
+main .information p {
+  font-size: clamp(1.5rem, 3vw, 1rem);
+  font-weight: 400;
+}
+
+.card {
+  background-color: white;
+  max-width: 33rem;
+  width: 100%;
+}
+
+.card .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2.19rem;
+  gap: 1rem;
+}
+
+.card .form .form-content input {
+  width: 29.8rem;
+  height: 3.511rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  outline: none;
+}
+
+.card .form .form-content #doubt {
+  height: 10rem;
+}
+
+.card .form .form-content a {
+  visibility: hidden;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.card .form #btn {
+  width: 29.8rem;
+  height: 4.11rem;
+  background-color: #3ccc87;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.card .form .form-content.error a {
+  color: red;
+  visibility: visible;
+}
+
+.card .form .form-content.error input {
+  border-color: red;
+}
+
+.card .form .form-content.correct input {
+  border-color: green;
+}
+
+@media (max-width: 1024px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 615px) {
+  main .information {
+    width: 30rem;
+  }
+}

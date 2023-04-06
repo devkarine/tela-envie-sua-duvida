@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 62.5%;
+}
+
+button,
+input {
+  border: none;
+  cursor: pointer;
+}

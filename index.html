@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Envie sua Dúvida</title>
+  </head>
+  <body>
+    <main>
+      <div class="information">
+        <h1>
+          FICOU COM DÚVIDA?<br />
+          NOS MANDE UMA MENSAGEM!
+        </h1>
+
+        <p>
+          Caso tenha ficado com qualquer dúvida, basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </div>
+
+      <div class="card">
+        <form class="form" id="form">
+          <div class="form-content">
+            <input type="text" placeholder="Nome Completo*" id="username" />
+            <a>Error Mensage</a>
+          </div>
+
+          <div class="form-content">
+            <input type="email" id="email" placeholder="Email*" />
+            <a>Error Mensage</a>
+          </div>
+
+          <div class="form-content">
+            <input type="tel" id="phone" placeholder="Telefone*" />
+            <a>Error Mensage</a>
+          </div>
+
+          <div class="form-content">
+            <input type="text" id="doubt" placeholder="Mensagem*" />
+            <a>Error Mensage</a>
+          </div>
+
+          <strong>*Campos obrigatórios</strong>
+
+          <button type="submit" id="btn">Enviar</button>
+        </form>
+      </div>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
