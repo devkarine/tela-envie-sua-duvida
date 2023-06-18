@@ -19,7 +19,7 @@ Projeto realizado com o objetivo de criar uma tela, onde a pessoa possa mandar a
 A validação vai mostrar uma mensagem de erro em cada input vazio, ficando com a borda vermelha e quando estiver tudo correto, ficará com a borda verde.
     
 ## 🖱️ A página
-<img src="src/images/desktop-mobile.gif" alt="Gif exibindo o desktop e versão mobile do site">    
+<img src="src/img/gif.gif" alt="Gif exibindo o desktop e versão mobile do site">    
 
 > <a href="https://devkarine.github.io/tela-envie-sua-duvida/" target= "_blank">Acesse a página online</a>  
 
